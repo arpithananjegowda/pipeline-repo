@@ -31,9 +31,9 @@ pipeline {
 						}	
 					}
 				}
-			}
 post {
 	always {
 		echo " send a mail "
 	}
+}
 }
